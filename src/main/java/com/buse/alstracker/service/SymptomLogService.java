@@ -1,6 +1,6 @@
-package service;
+package com.buse.alstracker.service;
 
-import entity.SymptomLog;
+import com.buse.alstracker.entity.SymptomLog;
 import java.util.List;
 
 public interface SymptomLogService {

@@ -1,4 +1,4 @@
-package entity;
+package com.buse.alstracker.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

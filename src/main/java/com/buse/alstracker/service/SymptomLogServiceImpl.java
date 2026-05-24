@@ -1,9 +1,9 @@
-package service;
+package com.buse.alstracker.service; // Paket ismin güncellendi
 
-import entity.SymptomLog;
+import com.buse.alstracker.entity.SymptomLog;
+import com.buse.alstracker.repository.SymptomLogRepository; // IMPORT YOLU DÜZELTİLDİ
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.SymptomLogRepository;
 
 import java.util.List;
 

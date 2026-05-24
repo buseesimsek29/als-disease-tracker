@@ -1,10 +1,10 @@
-package controller;
+package com.buse.alstracker.controller;
 
-import entity.SymptomLog;
+import com.buse.alstracker.entity.SymptomLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.SymptomLogService;
+import com.buse.alstracker.service.SymptomLogService;
 
 import java.util.List;
 

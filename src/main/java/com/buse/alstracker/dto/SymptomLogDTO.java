@@ -1,4 +1,4 @@
-package dto;
+package com.buse.alstracker.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
