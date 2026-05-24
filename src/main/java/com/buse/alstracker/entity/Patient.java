@@ -5,25 +5,23 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "symptom_logs")
-public class SymptomLog {
+@Table(name = "patients")
+public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String symptomName;
-    private Integer severity;
-    private String notes;
-    private LocalDateTime logDate = LocalDateTime.now();
+    private String firstName;
+    private String lastName;
+    private String doctorName;
 
-    @ManyToOne
-    @JoinColumn(name = "patient_id")
-    @JsonIgnoreProperties("symptomLogs")
-    private Patient patient;
+    @OneToMany(mappedBy = "patient", cascade = CascadeType.ALL)
+    @JsonIgnoreProperties("patient")
+    private List<SymptomLog> symptomLogs;
 }
