@@ -24,4 +24,21 @@ public class PatientController {
     public Patient createPatient(@RequestBody Patient patient) {
         return patientRepository.save(patient);
     }
+
+    @PutMapping("/{id}")
+    public Patient updatePatient(@PathVariable Long id, @RequestBody Patient patientDetails) {
+        Patient patient = patientRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Hasta bulunamadı: " + id));
+
+        patient.setFirstName(patientDetails.getFirstName());
+        patient.setLastName(patientDetails.getLastName());
+        patient.setDoctorName(patientDetails.getDoctorName());
+
+        return patientRepository.save(patient);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deletePatient(@PathVariable Long id) {
+        patientRepository.deleteById(id);
+    }
 }
