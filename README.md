@@ -23,3 +23,6 @@ Kurulum ve Çalıştırma
 3. `AlsDiseaseTrackerApplication` sınıfını çalıştırın.
 4. Tarayıcınızdan `http://localhost:8080/index.html` adresine gidin.
 5. Giriş bilgileri: **doctor / 1234**
+
+
+<img width="1515" height="748" alt="image" src="https://github.com/user-attachments/assets/7c926c06-ec95-442e-b6f3-325868fb6c95" />
