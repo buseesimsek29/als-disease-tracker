@@ -26,3 +26,10 @@ Kurulum ve Çalıştırma
 
 
 <img width="1515" height="748" alt="image" src="https://github.com/user-attachments/assets/7c926c06-ec95-442e-b6f3-325868fb6c95" />
+
+<img width="1531" height="720" alt="image" src="https://github.com/user-attachments/assets/401918e2-e16d-458f-92ee-d0210b0d545a" />
+
+<img width="1533" height="721" alt="image" src="https://github.com/user-attachments/assets/2d0beca8-ab21-49ab-8e33-227a8ed4d496" />
+
+<img width="1515" height="516" alt="image" src="https://github.com/user-attachments/assets/6b73826d-dc33-49c0-a413-9942c259c2be" />
+
